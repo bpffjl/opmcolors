@@ -1,5 +1,7 @@
 
-# MN Color Palettes
+# OPM Color Palettes
+
+*I"m working on making this package specific to OPM!*
 
 Use the `mncolors` package to paint your data with colors from the [MN
 state brand style
