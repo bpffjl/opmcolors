@@ -21,7 +21,7 @@ To install `mncolors`:
 install.packages("remotes")
 
 # Now you can install mncolors from github
-remotes::install_github("tidy-MN/mncolors")
+remotes::install_github("bpffjl/opmcolors")
 ```
 
 ## The Palettes
