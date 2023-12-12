@@ -1,10 +1,10 @@
-Package: mncolors
-Title: Minnesota Color Palettes
+Package: opmcolors
+Title: US Office of Personnel Managemtn Color Palettes
 Version: 0.0.0.9027
 Authors@R: c(person("Help", "me?", role = c("aut")),
-             person("Dorian", "Kvale", role = c("aut", "cre"),
-                    email = "Dorian.Kvale@state.mn.us"))
-Description: State branded color palettes.
+             person("Ben", "Jaques-Leslie", role = c("aut", "cre"),
+                    email = "Benjamin.Jaques-Leslie@opm.gov"))
+Description: US Office of Personnel Management branded color palettes.
 Depends: R (>= 3.0.0)
 Imports: ggplot2, grDevices, graphics
 License: MIT + file LICENSE
