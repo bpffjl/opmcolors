@@ -37,41 +37,41 @@ safety, **primary_accent**, **primary_extended**,
 opm_palettes
 ```
 
-## $primary
-## OPM Blue OPM Light Blue        OPM Red OPM Light Gray 
-## "#093453"      "#009ED1"      "#D13138"      "#727477" 
-## 
-## $secondary
-## OPM Orange        OPM Tan       OPM Gold OPM Muted Blue      OPM Green  OPM Bold Blue 
-## "#D16A00"      "#C4B595"      "#E1B424"      "#527794"      "#008540"      "#005999" 
-## 
-## $opm_blue_3
-## OPM Blue        OPM Red OPM Light Blue 
-## "#093453"      "#D13138"      "#009ED1" 
-## 
-## $opm_blue_5
-## OPM Blue       OPM Gold     OPM Orange        OPM Tan OPM Muted Blue 
-## "#093453"      "#E1B424"      "#D16A00"      "#C4B595"      "#527794" 
-## 
-## $opm_light_blue_3
-## OPM Light Blue       OPM Blue        OPM Red 
-## "#009ED1"      "#093453"      "#D13138" 
-## 
-## $opm_light_blue_5
-## OPM Light Blue       OPM Gold     OPM Orange      OPM Green  OPM Bold Blue 
-## "#009ED1"      "#E1B424"      "#D16A00"      "#008540"      "#005999" 
-## 
-## $opm_red_3
-## OPM Red       OPM Blue OPM Light Blue 
-## "#D13138"      "#093453"      "#009ED1" 
-## 
-## $opm_red_5
-## OPM Red       OPM Gold OPM Muted Blue        OPM Tan  OPM Bold Blue 
-## "#D13138"      "#E1B424"      "#527794"      "#C4B595"      "#005999" 
-## 
-## $opm_gray_4
-## OPM Light Gray       OPM Blue OPM Light Blue        OPM Red 
-## "#727477"      "#093453"      "#009ED1"      "#D13138" 
+ $primary
+ OPM Blue OPM Light Blue        OPM Red OPM Light Gray 
+ "#093453"      "#009ED1"      "#D13138"      "#727477" 
+ 
+ $secondary
+ OPM Orange        OPM Tan       OPM Gold OPM Muted Blue      OPM Green  OPM Bold Blue 
+ "#D16A00"      "#C4B595"      "#E1B424"      "#527794"      "#008540"      "#005999" 
+ 
+ $opm_blue_3
+ OPM Blue        OPM Red OPM Light Blue 
+ "#093453"      "#D13138"      "#009ED1" 
+ 
+ $opm_blue_5
+ OPM Blue       OPM Gold     OPM Orange        OPM Tan OPM Muted Blue 
+ "#093453"      "#E1B424"      "#D16A00"      "#C4B595"      "#527794" 
+ 
+ $opm_light_blue_3
+ OPM Light Blue       OPM Blue        OPM Red 
+ "#009ED1"      "#093453"      "#D13138" 
+ 
+ $opm_light_blue_5
+ OPM Light Blue       OPM Gold     OPM Orange      OPM Green  OPM Bold Blue 
+ "#009ED1"      "#E1B424"      "#D16A00"      "#008540"      "#005999" 
+ 
+ $opm_red_3
+ OPM Red       OPM Blue OPM Light Blue 
+ "#D13138"      "#093453"      "#009ED1" 
+ 
+ $opm_red_5
+ OPM Red       OPM Gold OPM Muted Blue        OPM Tan  OPM Bold Blue 
+ "#D13138"      "#E1B424"      "#527794"      "#C4B595"      "#005999" 
+ 
+ $opm_gray_4
+ OPM Light Gray       OPM Blue OPM Light Blue        OPM Red 
+ "#727477"      "#093453"      "#009ED1"      "#D13138" 
 
 ## Examples
 
