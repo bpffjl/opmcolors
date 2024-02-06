@@ -14,7 +14,7 @@ style.
 
 ## Install
 
-To install `mncolors`:
+To install `opmcolors`:
 
 ``` r
 # First install the 'remotes' package
