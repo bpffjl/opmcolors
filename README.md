@@ -25,7 +25,7 @@ remotes::install_github("bpffjl/opmcolors")
 
 There are currently 13: primary, secondary, opm_blue_3, opm_blue_5, opm_light_blue_5, opm_light_blue_3, opm_red_3, opm_red_5, and opm_gray_4.
 
-<img src="https://github.com/tidy-MN/opmcolors/raw/main/README_files/figure-gfm/see_palettes-1.png">
+<img src="https://github.com/bpffjl/opmcolors/raw/main/README_files/figure-gfm/primary.png">
 
 <br>
 
