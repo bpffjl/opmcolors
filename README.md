@@ -37,6 +37,7 @@ safety, **primary_accent**, **primary_extended**,
 opm_palettes
 ```
 
+```
  $primary
  OPM Blue OPM Light Blue        OPM Red OPM Light Gray 
  "#093453"      "#009ED1"      "#D13138"      "#727477" 
@@ -72,6 +73,7 @@ opm_palettes
  $opm_gray_4
  OPM Light Gray       OPM Blue OPM Light Blue        OPM Red 
  "#727477"      "#093453"      "#009ED1"      "#D13138" 
+```
 
 ## Examples
 
