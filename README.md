@@ -3,13 +3,10 @@
 
 *I"m working on making this package specific to OPM!*
 
-Use the `mncolors` package to paint your data with colors from the [MN
-state brand style
-guide](https://mn.gov/portal/brand/style-guide/colors/), and a few color
-palettes inspired by local landscapes and animals, such as tree frogs
-and crayfish.
+Use the `opmcolors` package to paint your data with colors from the [OPM brand standards
+guide](https://opm365.sharepoint.com/SitePages/OPM-Brand-Standards.aspx)
 
-Use the palettes with `ggplot2` or `plot` to give your charts some MN
+Use the palettes with `ggplot2` or `plot` to give your charts some OPM
 style.
 
 ## Install
@@ -37,53 +34,44 @@ safety, **primary_accent**, **primary_extended**,
 **More specifically:**
 
 ``` r
-mn_palettes
+opm_palettes
 ```
 
-    ## $primary
-    ##   MN Blue  MN Green 
-    ## "#003865" "#78BE21" 
-    ## 
-    ## $accent
-    ## [1] "#008EAA" "#0D5257" "#8D3F2B" "#5D295F" "#53565A"
-    ## 
-    ## $extended
-    ## [1] "#A4BCC2" "#F5E1A4" "#9BCBEB" "#FFC845"
-    ## 
-    ## $blue
-    ## [1] "#D9D9D6" "#A4BCC2" "#9BCBEB" "#008EAA" "#003865"
-    ## 
-    ## $green
-    ## [1] "#D9D9D6" "#A4BCC2" "#0D5257" "#78BE21"
-    ## 
-    ## $gray
-    ## [1] "#53565A" "#97999B" "#D9D9D6"
-    ## 
-    ## $safety
-    ## [1] "#A6192E" "#E57200"
-    ## 
-    ## $primary_accent
-    ##   MN Blue  MN Green                                                   
-    ## "#003865" "#78BE21" "#008EAA" "#0D5257" "#8D3F2B" "#5D295F" "#53565A" 
-    ## 
-    ## $primary_extended
-    ##   MN Blue  MN Green                                         
-    ## "#003865" "#78BE21" "#A4BCC2" "#F5E1A4" "#9BCBEB" "#FFC845" 
-    ## 
-    ## $primary_accent_extended
-    ##   MN Blue  MN Green                                                             
-    ## "#003865" "#78BE21" "#008EAA" "#0D5257" "#8D3F2B" "#5D295F" "#53565A" "#A4BCC2" 
-    ##                               
-    ## "#F5E1A4" "#9BCBEB" "#FFC845" 
-    ## 
-    ## $corn
-    ## [1] "#78BE21" "#FFC845"
-    ## 
-    ## $treefrog
-    ## [1] "#53412B" "#474F27" "#96B02C" "#94AD81" "#BFC453"
-    ## 
-    ## $crayfish
-    ## [1] "#832D12" "#34424A" "#6C5E2E" "#AB8237" "#5493AA"
+## $primary
+## OPM Blue OPM Light Blue        OPM Red OPM Light Gray 
+## "#093453"      "#009ED1"      "#D13138"      "#727477" 
+## 
+## $secondary
+## OPM Orange        OPM Tan       OPM Gold OPM Muted Blue      OPM Green  OPM Bold Blue 
+## "#D16A00"      "#C4B595"      "#E1B424"      "#527794"      "#008540"      "#005999" 
+## 
+## $opm_blue_3
+## OPM Blue        OPM Red OPM Light Blue 
+## "#093453"      "#D13138"      "#009ED1" 
+## 
+## $opm_blue_5
+## OPM Blue       OPM Gold     OPM Orange        OPM Tan OPM Muted Blue 
+## "#093453"      "#E1B424"      "#D16A00"      "#C4B595"      "#527794" 
+## 
+## $opm_light_blue_3
+## OPM Light Blue       OPM Blue        OPM Red 
+## "#009ED1"      "#093453"      "#D13138" 
+## 
+## $opm_light_blue_5
+## OPM Light Blue       OPM Gold     OPM Orange      OPM Green  OPM Bold Blue 
+## "#009ED1"      "#E1B424"      "#D16A00"      "#008540"      "#005999" 
+## 
+## $opm_red_3
+## OPM Red       OPM Blue OPM Light Blue 
+## "#D13138"      "#093453"      "#009ED1" 
+## 
+## $opm_red_5
+## OPM Red       OPM Gold OPM Muted Blue        OPM Tan  OPM Bold Blue 
+## "#D13138"      "#E1B424"      "#527794"      "#C4B595"      "#005999" 
+## 
+## $opm_gray_4
+## OPM Light Gray       OPM Blue OPM Light Blue        OPM Red 
+## "#727477"      "#093453"      "#009ED1"      "#D13138" 
 
 ## Examples
 
