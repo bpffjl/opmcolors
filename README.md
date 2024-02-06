@@ -17,17 +17,15 @@ To install `opmcolors`:
 # First install the 'remotes' package
 install.packages("remotes")
 
-# Now you can install mncolors from github
+# Now you can install opmcolors from github
 remotes::install_github("bpffjl/opmcolors")
 ```
 
 ## The Palettes
 
-There are currently 13: primary, accent, extended, blue, green, gray,
-safety, **primary_accent**, **primary_extended**,
-**primary_accent_extended**, corn, treefrog, and caryfish.
+There are currently 13: primary, secondary, opm_blue_3, opm_blue_5, opm_light_blue_5, opm_light_blue_3, opm_red_3, opm_red_5, and opm_gray_4.
 
-<img src="https://github.com/tidy-MN/mncolors/raw/main/README_files/figure-gfm/see_palettes-1.png">
+<img src="https://github.com/tidy-MN/opmcolors/raw/main/README_files/figure-gfm/see_palettes-1.png">
 
 <br>
 
@@ -77,17 +75,17 @@ opm_palettes
 
 ## Examples
 
-In a ggplot use the MN palettes with the `scale_fill_mn()` and
-`scale_color_mn()` functions.
+In a ggplot use the OPM palettes with the `scale_fill_opm()` and
+`scale_color_opm()` functions.
 
 ``` r
-library(mncolors)
+library(opmcolors)
 library(ggplot2)
 
 # Primary
 ggplot(data = mpg) +   
    geom_point(aes(x = displ, y = hwy, color = class), size = 6, alpha = 0.7) +
-   scale_color_mn(palette = "primary", reverse = TRUE)
+   scale_color_opm(palette = "primary", reverse = TRUE)
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
@@ -96,7 +94,7 @@ ggplot(data = mpg) +
 # Extended
 ggplot(data = mpg) +   
    geom_point(aes(x = displ, y = hwy, color = class), size = 6, alpha = 0.7) +
-   scale_color_mn(palette = "extended")
+   scale_color_opm(palette = "extended")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-2-2.png)<!-- -->
@@ -105,7 +103,7 @@ ggplot(data = mpg) +
 # Primary + Accent
 ggplot(diamonds) + 
   geom_bar(aes(x = cut, fill = clarity)) +
-  scale_fill_mn(palette = "primary_accent")
+  scale_fill_opm(palette = "primary_accent")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-2-3.png)<!-- -->
@@ -114,12 +112,12 @@ ggplot(diamonds) +
 # Crayfish
 ggplot(diamonds) + 
   geom_col(aes(y = mean(price), x = cut, fill = cut)) +
-  scale_fill_mn(palette = "crayfish")
+  scale_fill_opm(palette = "crayfish")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-2-4.png)<!-- -->
 
-Alternatively, use`mncolors()` to feed a specific number of colors from
+Alternatively, use`opmcolors()` to feed a specific number of colors from
 a palette to a ggplot layer.
 
 ``` r
@@ -129,7 +127,7 @@ df <- dplyr::starwars[1:5, ]
 
 ggplot(df, aes(x = height, y = reorder(name, height), fill = height)) +
     geom_col() + 
-    scale_fill_gradientn(colors = mncolors(5, palette = "primary")) +
+    scale_fill_gradientn(colors = opmcolors(5, palette = "primary")) +
   theme(legend.position = "none") +
   labs(title = "How tall are they?",
        subtitle = "Star Wars character heights",
@@ -141,10 +139,10 @@ ggplot(df, aes(x = height, y = reorder(name, height), fill = height)) +
 
 ## Lots of colors!
 
-Enter any number you want to `mncolors()` to return a bucket of colors.
+Enter any number you want to `opmcolors()` to return a bucket of colors.
 
 ``` r
-mncolors(10, "blue")
+opmcolors(10, "blue")
 ```
 
     ##  [1] "#D9D9D6FF" "#B0BEB9FF" "#A4BABDFF" "#A7C4D4FF" "#A5CCE8FF" "#89C4E5FF"
@@ -153,7 +151,7 @@ mncolors(10, "blue")
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
-mncolors(100, "green")
+opmcolors(100, "green")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
@@ -167,7 +165,7 @@ In this example we use the `primary_accent` palette directly via the
 # Volcano example
 
 ## Create palette
-pal <- colorRampPalette(mn_palettes$primary_accent)
+pal <- colorRampPalette(opm_palettes$primary_accent)
 
 ## Use 50 colors from it
 image(volcano, col = pal(50))
