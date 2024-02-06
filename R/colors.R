@@ -50,7 +50,7 @@ opm_palettes <- list(
     opm_blue_3 = c(
       "OPM Blue"  = "#093453", # OPM Blue
       "OPM Red"  = "#D13138", # OPM Red
-      "OPM Light Blue" = "#009ED1",  # OPM Light Blue
+      "OPM Light Blue" = "#009ED1"  # OPM Light Blue
     ),
     
     opm_blue_5 = c(
@@ -58,13 +58,13 @@ opm_palettes <- list(
       "OPM Gold"  = "#E1B424", # OPM Gold
       "OPM Orange"  = "#D16A00", # OPM Orange
       "OPM Tan" = "#C4B595",  # OPM Tan
-      "OPM Muted Blue" = "#527794",  # OPM Muted Blue
+      "OPM Muted Blue" = "#527794"  # OPM Muted Blue
     ),
     
     opm_light_blue_3 = c(
       "OPM Light Blue" = "#009ED1",  # OPM Light Blue
       "OPM Blue"  = "#093453", # OPM Blue
-      "OPM Red"  = "#D13138", # OPM Red
+      "OPM Red"  = "#D13138" # OPM Red
       
     ),
     opm_light_blue_5 = c(
@@ -79,7 +79,7 @@ opm_palettes <- list(
     opm_red_3 = c(
       "OPM Red"  = "#D13138", # OPM Red
       "OPM Blue"  = "#093453", # OPM Blue
-      "OPM Light Blue" = "#009ED1",  # OPM Light Blue
+      "OPM Light Blue" = "#009ED1"  # OPM Light Blue
     ),
     
     opm_red_5 = c(
@@ -95,7 +95,7 @@ opm_palettes <- list(
       "OPM Light Gray" = "#727477",  # OPM Light Gray
       "OPM Blue"  = "#093453", # OPM Blue
       "OPM Light Blue" = "#009ED1",  # OPM Light Blue
-      "OPM Red"  = "#D13138", # OPM Red
+      "OPM Red"  = "#D13138" # OPM Red
     )
 
 )
