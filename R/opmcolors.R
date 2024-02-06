@@ -1,11 +1,11 @@
 #' OPM color palette maps
 #'
-#' This function creates a vector of \code{n} equally spaced colors along a MN color palette.
+#' This function creates a vector of \code{n} equally spaced colors along a OPM color palette.
 #'
 #' @param n The number of colors (\eqn{\ge 1}) to be in the palette.
 #'
-#' @param palette A character string indicating the MN palette. The
-#' options available are: "primary", "accent", "extended", "blue", "green", "gray", "safety", "primary_accent", "primary_extended", "primary_accent_extended", "corn", "treefrog", "crayfish".
+#' @param palette A character string indicating the OPM palette. The
+#' options available are: "primary", "secondary", "opm_blue_3", "opm_blue_5", "opm_light_blue_3", "opm_light_blue_5", "opm_red_3", "opm_red_5", and "opm_gray_4"
 #'
 #' @param alpha	The alpha transparency, a number in [0,1], see argument alpha in
 #' \code{\link[grDevices]{hsv}}.
@@ -23,7 +23,7 @@
 #' subsequent graphics by \code{palette(cv)}, a \code{col =} specification in
 #' graphics functions or in \code{par}.
 #'
-#' @author Dorian Kvale: \email{@@state.mn.us}, \href{https://mn.gov/portal/brand/style-guide/colors/}{@@MN Style Guide}
+#' @author Ben Jaques-Leslie: \email{@@opm.gov}, \href{https://opm365.sharepoint.com/SitePages/OPM-Brand-Standards.aspx/}{@@OPM Style Guide}
 #'
 #' @details
 #'

@@ -12,10 +12,10 @@
 #' @param ttl character, title to be displayed (the name of the palette)
 #' @param num numeric, the number of colours to display
 #' @examples
-#' viz_palette(mn_palettes$mn_qual)
-#' viz_palette(mn_palettes$mn_qual, "mn_qual")
-#' viz_palette(mn_palettes$mn_qual, "mn_qual first 4", num = 4)
-#' viz_palette(mn_palettes$mn_qual, "mn_qual interpolated to 25", num = 25)
+#' viz_palette(opm_palettes$opm_qual)
+#' viz_palette(opm_palettes$opm_qual, "opm_qual")
+#' viz_palette(opm_palettes$opm_qual, "opm_qual first 4", num = 4)
+#' viz_palette(opm_palettes$opm_qual, "opm_qual interpolated to 25", num = 25)
 #'
 #' @export
 #' @importFrom graphics image
