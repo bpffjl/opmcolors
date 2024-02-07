@@ -5,16 +5,16 @@
 \alias{opm_palettes}
 \title{OPM Color Palettes}
 \format{
-An object of class \code{list} of length 9.
+An object of class \code{list} of length 17.
 }
 \usage{
 opm_palettes
 }
 \description{
 A collection of color palettes for the US Office of Personnel Management. The palettes include:
-primary 
-secondary 
-opm_blue_3 
+primary
+secondary
+opm_blue_3
 opm_blue_5
 opm_light_blue_3
 opm_light_blue_5

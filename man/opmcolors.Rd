@@ -10,7 +10,7 @@ opmcolors(n, palette = "primary", alpha = 1, begin = 0, end = 1, direction = 1)
 \item{n}{The number of colors (\eqn{\ge 1}) to be in the palette.}
 
 \item{palette}{A character string indicating the OPM palette. The
-options available are: "primary", "secondary", "opm_blue_3", "opm_blue_5", "opm_light_blue_3", "opm_light_blue_5", "opm_red_3", "opm_red_5", and "opm_gray_4"}
+options available are: "primary", "secondary", "opm_blue_3", "opm_blue_5", "opm_light_blue_3", "opm_light_blue_5", "opm_red_3", "opm_red_5", "opm_gray_4", "ryg", "grayscale", "coffees", "sapphires", "jades", "garnets", "fire_ice", and "royal"}
 
 \item{alpha}{The alpha transparency, a number in [0,1], see argument alpha in
 \code{\link[grDevices]{hsv}}.}
