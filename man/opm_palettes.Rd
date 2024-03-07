@@ -21,6 +21,14 @@ opm_light_blue_5
 opm_red_3
 opm_red_5
 opm_gray_4
+ryg
+grayscale
+coffees
+sapphires
+jades
+garnets
+fire_ice
+royal
 }
 \examples{
 
